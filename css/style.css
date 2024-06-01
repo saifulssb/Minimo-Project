@@ -1,0 +1,153 @@
+/* Font links */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+/* common start */
+body {
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+
+/* common end */
+
+/* header start */
+header {
+    padding: 30px 0;
+    /* border: 1px solid; */
+
+}
+
+.container {
+    overflow: hidden;
+    margin: 0 auto;
+    width: 90%;
+    /* border: 1px solid; */
+
+}
+
+.logo {
+    margin-top: 4px;
+    float: left;
+    width: 12%;
+    /* border: 1px solid; */
+}
+
+.logo a img {
+    width: 100%;
+}
+
+.manu {
+    float: right;
+    width: 65%;
+    /* border: 1px solid; */
+}
+
+.manu ul {
+    float: right;
+    list-style: none;
+}
+
+.manu ul li {
+    float: left;
+}
+
+.manu ul li a {
+    display: inline-block;
+    margin: 0 55px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-bottom: 1px solid transparent;
+    transition: .33s linear;
+}
+
+.manu ul li:last-child a {
+    margin: 0;
+}
+
+.manu ul li a:hover {
+    /* border-bottom: 1px solid #626262; */
+    /* color: black; */
+}
+
+/* header end */
+
+/* banner start */
+.banner {}
+
+.b_img {}
+
+.b_img img {
+    width: 100%;
+}
+
+/* banner end */
+/* getaway start */
+.getaway {
+    padding: 100px 0 30px;
+}
+
+.container2 {
+    margin: 0 auto;
+    width: 80%;
+    /* border: 1px solid; */
+}
+
+.g_content {}
+
+.light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.title {
+    margin: 15px 0 25px;
+    font-size: 30px;
+    font-weight: 400;
+
+}
+
+.text {
+    margin: 0;
+    line-height: 24px;
+}
+
+.g_link{
+    margin-top: 40px;
+    display: block;
+    text-decoration: none;
+    color: #626262;
+}
+/* getaway end  */
+/* blog start */
+    .blog{
+        padding: 0 0 100px;
+    }
+    .bl_content{
+        overflow: hidden; 
+    }
+
+    .lb_item{
+        margin-top: 70px;
+        float: left;
+        width: 47%;
+        /* border: 1px solid; */
+        box-sizing: border-box;
+    }
+    .lb_item:nth-child(even){
+        margin-left: 6%;
+
+    }
+    .bl_img{
+        margin-bottom: 20px;
+    }
+    .bl_img img{
+        width: 100%;
+    }
+
+/* blog end */
